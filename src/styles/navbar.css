@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: orange;
+    height: 60px;
+}
+
+.nav-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 14px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.cart{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cart span:nth-child(1){
+    font-size: 2.5rem;
+    color: white;
+    padding: 0 2px;
+}
+
+.cart span:nth-child(2) {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    top: -15px;
+    border-radius: 50%;
+}
