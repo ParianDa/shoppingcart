@@ -1,0 +1,38 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.cards{
+    width: 250px;
+    padding: 20px;
+}
+
+.cards:hover {
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.image-box img{
+    width: 150px;
+    height: 200px;
+}
+
+.details button{
+    padding: 10px 20px;
+    font: bold;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+.details button:hover {
+    background-color: rgb(52, 51, 51);
+    color: white;
+    cursor: pointer;
+}
+
